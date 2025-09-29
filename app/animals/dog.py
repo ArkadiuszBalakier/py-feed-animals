@@ -9,6 +9,5 @@ class Dog(Animal):
     ) -> None:
         super().__init__(name, 7, is_hungry)
 
-
     def bring_slippers(self) -> None:
-        print("The slippers delivered!")
+       print("The slippers delivered!")

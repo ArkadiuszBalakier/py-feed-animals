@@ -4,8 +4,8 @@ class Animal:
         self.appetite = appetite
         self.is_hungry = is_hungry
 
-    def print_name(self) -> str:
-        return f"Hello, I'm {self.name}"
+    def print_name(self) -> None:
+        print(f"Hello, I'm {self.name}")
 
     def feed(self) -> int:
         if self.is_hungry:
